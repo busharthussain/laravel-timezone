@@ -13,9 +13,6 @@ class LaravelTimezone extends ServiceProvider
     public function register()
     {
 
-        $this->commands([
-            Timezone::class,
-        ]);
     }
 
 
