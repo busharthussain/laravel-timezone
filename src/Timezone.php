@@ -7,7 +7,7 @@ use DateTimeZone;
 class Timezone
 {
 
-    public function getTimezones($CurrentTimezone = 'UTC',$hour = 1)
+    static function getTimezones($CurrentTimezone = 'UTC',$hour = 1)
     {
         $timezones = DateTimeZone::listIdentifiers();
         $listOfTimeZones = [];
